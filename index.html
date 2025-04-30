@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather-App</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<body>
+    
+    
+
+    <div class="container">
+        <div class="search">
+            <button class="btn"><i class="ri-search-2-line"></i></button>
+            <input id="input" type="text" placeholder="Search your city......">
+        </div>
+        <div class="weather-area">
+            <h3 id="city">City</h3>
+            <p id="time">Friday,February 23, 2024 at 10:37 Am</p>
+            <p id="weather-status">Clouds</p>
+            <img id="image" src="https://openweathermap.org/img/wn/01d@2x.png" alt="weather">
+            <h3 class="temp">278°C</h3>
+            <div class="minmax">
+                <p id="min">Min: 00°C </p>
+                <p id="max">Max: 00°C </p>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="tempcard">
+                <i class="ri-temp-hot-line icon"></i>
+               <div class="txt">
+                <p>Feels Like</p>
+                <p id="Feels">00C</p>
+               </div>
+            </div>
+            <div class="tempcard">
+                <i class="ri-drop-fill icon"></i>
+               <div class="txt">
+                <p>Humidity</p>
+                <p id="humidity">0%</p>
+               </div>
+            </div>
+            <div class="tempcard">
+                <i class="ri-windy-fill icon"></i>
+               <div class="txt">
+                <p>Wind</p>
+                <p id="wind">00m/s</p>
+               </div>
+            </div>
+            <div class="tempcard">
+                <i class="ri-speed-up-fill icon"></i>
+               <div class="txt">
+                <p>Pressure</p>
+                <p id="pressure">00 hPa</p>
+               </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="load-container">
+    <div class="loader"></div> 
+    </div>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
