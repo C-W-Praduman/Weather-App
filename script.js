@@ -44,7 +44,7 @@ const getDateandTime = (dt)=>{
 const getWeatherData = async (city) => {
 
     loader.style.display = "flex";
-    // warning Don't use this Api code and the same url. Go to openweather api anf generater your new one api code
+    // warning Don't use this Api code and the same url. Go to openweather api and generate your new one api code
     const weatherUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=2b17f542a4555257fda46996f974943f&units=metric`
     try {
 
