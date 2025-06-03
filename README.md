@@ -6,6 +6,7 @@ A simple and elegant weather application built using **HTML**, **CSS**, and **Ja
 ---
 
 ## 🔍 Preview
+[Live Preview](https://weather-app-blue-three-44.vercel.app/)
 
 > ![App Screenshot](./Assets/screenshot.png)
 
